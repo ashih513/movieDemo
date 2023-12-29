@@ -1,0 +1,29 @@
+Folder Structure Describe:
+
+Connection/
+    Connection folder hold mongodb connection info
+
+Controller/
+    Controller folder hold all controller file 
+        admin/ hold all admin panel api related controller
+
+Helper/
+    For global helper
+
+Middleware
+    Hold Middleware of api and whole project
+
+Model/
+    Only hold model of mongo schema
+
+Route/
+    hold all route 
+        admin.js:   hold all admin panel routes
+        api.js: hold all mobile api routes
+
+Schema/
+    Hold all schema files for mongo collection
+
+Validation/
+    hold validation for all api
+    
